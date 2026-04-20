@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards de Perfil - CSS Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Equipe Incrível</h1>
+        <p class="subtitle">Conheça nossos profissionais especializados</p>
+        
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="Ana Silva">
+                        <div class="online-status"></div>
+                    </div>
+                    <h2>Ana Silva</h2>
+                    <p class="role">Desenvolvedora Front-end</p>
+                </div>
+                
+                <div class="card-body">
+                    <p class="bio">Especialista em React e Vue.js com 5 anos de experiência em desenvolvimento web.</p>
+                    
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">CSS3</span>
+                    </div>
+                </div>
+                
+                <div class="card-footer">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <button class="contact-btn">Contatar</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="Carlos Santos">
+                        <div class="online-status busy"></div>
+                    </div>
+                    <h2>Carlos Santos</h2>
+                    <p class="role">Back-end Developer</p>
+                </div>
+                
+                <div class="card-body">
+                    <p class="bio">Desenvolvedor Node.js e Python com foco em arquitetura de sistemas escaláveis.</p>
+                    
+                    <div class="skills">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="card-footer">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <button class="contact-btn">Contatar</button>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="Marina Oliveira">
+                    </div>
+                    <h2>Marina Oliveira</h2>
+                    <p class="role">UI/UX Designer</p>
+                </div>
+                
+                <div class="card-body">
+                    <p class="bio">Designer com expertise em Figma e Adobe XD, criando experiências incríveis para usuários.</p>
+                    
+                    <div class="skills">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">UI Design</span>
+                        <span class="skill-tag">Prototyping</span>
+                    </div>
+                </div>
+                
+                <div class="card-footer">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button class="contact-btn">Contatar</button>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="João Pereira">
+                    </div>
+                    <h2>João Pereira</h2>
+                    <p class="role">Full Stack Developer</p>
+                </div>
+                
+                <div class="card-body">
+                    <p class="bio">Desenvolvedor full stack com experiência em React, Node.js e desenvolvimento mobile.</p>
+                    
+                    <div class="skills">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">React Native</span>
+                    </div>
+                </div>
+                
+                <div class="card-footer">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <button class="contact-btn">Contatar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Efeito de hover nos cards
+        document.querySelectorAll('.profile-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Efeito de clique nos botões
+        document.querySelectorAll('.contact-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const card = this.closest('.profile-card');
+                const name = card.querySelector('h2').textContent;
+                alert(`Entrando em contato com ${name}!`);
+            });
+        });
+    </script>
+</body>
+</html>
